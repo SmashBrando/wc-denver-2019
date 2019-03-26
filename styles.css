@@ -48,6 +48,10 @@ h1, h2, h3, h4, h5, h6 {
   bottom: auto;
   right: auto;
   left: auto;
+
+  height: 40vh !important;
+  max-height: 400px !important;
+  min-height: 300px;
 }
 .site-branding {
   position: absolute !important;
