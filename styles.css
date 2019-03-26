@@ -1,3 +1,7 @@
-body {
-  color: red;
+.navigation-top {
+    top: 0;
+    bottom: auto;
+}
+.menu-scroll-down {
+  display: none;
 }
