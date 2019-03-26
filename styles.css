@@ -27,7 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .has-header-image .custom-header-media, .has-header-video .custom-header-media {
-  max-height: 400px !important;
+  height: 50vh !important;
+  max-height: 500px !important;
+  min-height: 400px;
 }
 .site-footer .widget-column.footer-widget-2 {
     width: 100%;
