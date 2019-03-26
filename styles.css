@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 50vh !important;
   max-height: 500px !important;
   min-height: 400px;
+  background: url(https://2019.denver.wordcamp.org/files/2019/03/hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.site-header .wp-custom-header {
+  display: none;
 }
 .site-footer .widget-column.footer-widget-2 {
     width: 100%;
