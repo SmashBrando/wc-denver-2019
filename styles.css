@@ -11,6 +11,6 @@
 .site-header .menu-toggle {
 
 }
-.site-header .custom-header-media {
-  max-height: 400px;
+.has-header-image .custom-header-media, .has-header-video .custom-header-media {
+  max-height: 400px !important;
 }
