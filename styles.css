@@ -29,3 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 .site-content-contain {
   background: #f6f6f6;
 }
+.footer-widget-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-widget-2 section {
+  width: 33.333%;
+  padding: 0 30px;
+}
