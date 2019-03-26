@@ -1,7 +1,7 @@
-.navigation-top {
+.site-header .navigation-top {
     top: 0;
     bottom: auto;
 }
-.menu-scroll-down {
+.site-header .menu-scroll-down {
   display: none;
 }
