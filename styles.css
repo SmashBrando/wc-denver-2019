@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 !important;
   align-items: center !important;
 }
-
+.site-branding a:hover, .site-branding a:focus {
+  opacity: 1;
+}
 
 .site-footer .widget-column.footer-widget-2 {
     width: 100%;
