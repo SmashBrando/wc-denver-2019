@@ -67,6 +67,9 @@ h1, h2, h3, h4, h5, h6 {
 .site-branding a:hover, .site-branding a:focus {
   opacity: 1;
 }
+body.has-header-image .site-description, body.has-header-video .site-description {
+  opacity: 1;
+}
 
 .site-footer .widget-column.footer-widget-2 {
     width: 100%;
