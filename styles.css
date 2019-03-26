@@ -1,7 +1,16 @@
 .site-header .navigation-top {
-    top: 0;
-    bottom: auto;
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  z-index: 3;
+  width: 100%;
 }
 .site-header .menu-scroll-down {
   display: none;
+}
+.site-header .menu-toggle {
+
+}
+.site-header .custom-header-media {
+  max-height: 400px;
 }
