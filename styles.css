@@ -5,9 +5,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   margin: 0 0 .75em;
   padding: 1.5em 0 0;
-  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
   color: #234792;
 }
 .site-header .navigation-top {
