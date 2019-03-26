@@ -1,3 +1,6 @@
+body, .site-content-contain {
+  background: #f6f6f6;
+}
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   margin: 0 0 .75em;
@@ -25,9 +28,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .has-header-image .custom-header-media, .has-header-video .custom-header-media {
   max-height: 400px !important;
-}
-.site-content-contain {
-  background: #f6f6f6;
 }
 .site-footer .widget-column.footer-widget-2 {
     width: 100%;
