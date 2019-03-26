@@ -38,10 +38,10 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-.page .custom-header {
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header, .has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header {
   margin-bottom: 0 !important;
 }
-.page .custom-header-media {
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media, .has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header-media {
   position: relative;
   top: auto;
   bottom: auto;
