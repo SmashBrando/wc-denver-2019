@@ -176,7 +176,7 @@ footer .widget ul li a:hover, footer .widget ol li a:hover{
 footer-widget-2 section {
   padding: 0 30px;
 }
-@media screen and ( min-width: 67em ) {
+@media screen and ( min-width: 48em ) {
   .site-footer .widget-column.footer-widget-2 {
       width: 100%;
       display: flex;
