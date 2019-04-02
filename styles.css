@@ -90,12 +90,16 @@ h6 {
   padding: 0 !important;
   align-items: center !important;
   background: rgba(0,0,0,.25) !important;
+
+}
+
+.home .site-branding {
   height: 75vh !important;
   max-height: 500px !important;
 }
 @media screen and (min-width: 768px) {
   .site-branding {
-    margin: 72px 0 0 !important;
+    /* margin: 72px 0 0 !important; */
   }
 }
 .site-branding a:hover, .site-branding a:focus {
