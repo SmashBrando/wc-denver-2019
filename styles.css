@@ -104,6 +104,9 @@ body.has-header-image .site-description, body.has-header-video .site-description
     border-radius: 10px;
 }
 /* FOOTER */
+footer {
+  background: #33333
+}
 .site-footer .widget-column.footer-widget-1 {
   width: 100%;
   float: none;
@@ -114,6 +117,15 @@ body.has-header-image .site-description, body.has-header-video .site-description
 }
 h2.widget-title {
   color: #fff;
+}
+footer .widget ul li, footer .widget ol li {
+  border: none;
+}
+footer .widget ul li a, footer .widget ol li a{
+  color: #fff;
+}
+footer .widget ul li a:hover, footer .widget ol li a:hover{
+  color: #fafafa;
 }
 @media screen and ( min-width: 67em ) {
   .site-footer .widget-column.footer-widget-2 {
