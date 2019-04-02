@@ -105,7 +105,7 @@ body.has-header-image .site-description, body.has-header-video .site-description
 }
 /* FOOTER */
 footer {
-  background: #33333
+  background: #333333;
 }
 .site-footer .widget-column.footer-widget-1 {
   width: 100%;
