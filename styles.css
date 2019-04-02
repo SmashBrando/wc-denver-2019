@@ -104,7 +104,17 @@ body.has-header-image .site-description, body.has-header-video .site-description
     border-radius: 10px;
 }
 /* FOOTER */
-
+.site-footer .widget-column.footer-widget-1 {
+  width: 100%;
+  float: none;
+}
+.widget_blog_subscription {
+  color: #fff;
+  padding: 0 30px 3em;
+}
+h2.widget-title {
+  color: #fff;
+}
 @media screen and ( min-width: 67em ) {
   .site-footer .widget-column.footer-widget-2 {
       width: 100%;
