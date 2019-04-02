@@ -108,6 +108,13 @@ h6 {
 body.has-header-image .site-description, body.has-header-video .site-description {
   opacity: 1;
 }
+/* CONTAINERS */
+.page-one-column .panel-content .wrap {
+  max-width: 970px;
+}
+.single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary {
+  max-width: 850px;
+}
 /* AVATARS */
 .wcorg-organizer .avatar {
     display: inline-block;
