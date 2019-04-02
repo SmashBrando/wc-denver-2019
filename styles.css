@@ -10,23 +10,26 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #234792;
 }
+h1.site-title {
+  font-size: 2rem !important;
+}
 h1, h2.entry-title {
-  font-size: 1.5rem
+  font-size: 1.5rem !important;
 }
 h2 {
-  font-size: 1.25rem
+  font-size: 1.25rem !important;
 }
 h3 {
-  font-size: 1.125rem
+  font-size: 1.125rem !important;
 }
 h4 {
-  font-size: 1rem
+  font-size: 1rem !important;
 }
 h4 {
-  font-size: .875rem
+  font-size: .875rem !important;
 }
 h6 {
-  font-size: .5rem
+  font-size: .5rem !important;
 }
 /* Navigation */
 .site-header .navigation-top {
@@ -84,6 +87,7 @@ h6 {
   margin: 72px 0 0 !important;
   padding: 0 !important;
   align-items: center !important;
+  background: rgba(0,0,0,.25) !important;
 }
 .site-branding a:hover, .site-branding a:focus {
   opacity: 1;
