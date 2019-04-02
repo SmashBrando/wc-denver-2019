@@ -91,7 +91,7 @@ h6 {
   align-items: center !important;
   background: rgba(0,0,0,.25) !important;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .site-branding {
     margin: 72px 0 0 !important;
   }
