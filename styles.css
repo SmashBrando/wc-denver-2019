@@ -110,7 +110,7 @@ body.has-header-image .site-description, body.has-header-video .site-description
 }
 /* CONTAINERS */
 .page-one-column .panel-content .wrap {
-  max-width: 970px;
+  max-width: 950px;
 }
 .single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary {
   max-width: 850px;
@@ -134,6 +134,14 @@ footer {
 .widget_blog_subscription {
   color: #fff;
   padding: 0 30px 3em;
+}
+footer button, input[type="button"], footer input[type="submit"] {
+  background-color: #ffffff;
+  color: #222;
+}
+footer button:hover, footer button:focus, footer input[type="button"]:hover, footer input[type="button"]:focus, footer input[type="submit"]:hover, footer input[type="submit"]:focus {
+  background-color: #fafafa;
+  color: #222;
 }
 h2.widget-title {
   color: #fff;
