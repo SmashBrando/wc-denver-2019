@@ -101,7 +101,7 @@ h6 {
   .has-header-image:not(.twentyseventeen-front-page):not(.home) .site-branding {
     margin: 72px 0 0 !important;
   }
-  .home #masthead .wrap {
+  .home .site-branding #masthead .wrap {
     margin-top: 72px;
   }
 }
