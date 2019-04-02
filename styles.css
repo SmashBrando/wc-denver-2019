@@ -122,10 +122,14 @@ footer .widget ul li, footer .widget ol li {
   border: none;
 }
 footer .widget ul li a, footer .widget ol li a{
-  color: #fff;
+  color: #fff !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 footer .widget ul li a:hover, footer .widget ol li a:hover{
-  color: #fafafa;
+  color: #fafafa !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 @media screen and ( min-width: 67em ) {
   .site-footer .widget-column.footer-widget-2 {
