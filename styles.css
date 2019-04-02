@@ -1,6 +1,8 @@
+/*  Base Styling */
 body, .site-content-contain, .site-header {
   background: #f6f6f6;
 }
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   margin: 0 0 .75em;
@@ -8,6 +10,25 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #234792;
 }
+h1, h2.entry-title {
+  font-size: 1.5rem
+}
+h2 {
+  font-size: 1.25rem
+}
+h3 {
+  font-size: 1.125rem
+}
+h4 {
+  font-size: 1rem
+}
+h4 {
+  font-size: .875rem
+}
+h6 {
+  font-size: .5rem
+}
+/* Navigation */
 .site-header .navigation-top {
   position: absolute;
   top: 0;
@@ -24,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 .site-header .menu-toggle {
 
 }
+
+/* Hero Banner */
 .has-header-image .custom-header-media, .has-header-video .custom-header-media {
   height: 50vh !important;
   max-height: 500px !important;
@@ -38,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
 .site-header .wp-custom-header {
   display: none;
 }
-
 .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header, .has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header {
   margin-bottom: 0 !important;
 }
@@ -48,7 +70,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: auto;
   right: auto;
   left: auto;
-
   height: 40vh !important;
   max-height: 400px !important;
   min-height: 300px;
@@ -70,20 +91,24 @@ h1, h2, h3, h4, h5, h6 {
 body.has-header-image .site-description, body.has-header-video .site-description {
   opacity: 1;
 }
-
-.site-footer .widget-column.footer-widget-2 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.footer-widget-2 section {
-  width: 33.333%;
-  padding: 0 30px;
-}
+/* AVATARS */
 .wcorg-organizer .avatar {
     display: inline-block;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
+}
+/* FOOTER */
+
+@media screen and ( min-width: 67em ) {
+  .site-footer .widget-column.footer-widget-2 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .footer-widget-2 section {
+    width: 33.333%;
+    padding: 0 30px;
+  }
 }
