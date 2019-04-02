@@ -96,7 +96,7 @@ h6 {
   max-height: 500px !important;
 }
 @media screen and (min-width: 768px) {
-  .has-header-image:not(.twentyseventeen-front-page):not(.home) .site-branding { {
+  .has-header-image:not(.twentyseventeen-front-page):not(.home) .site-branding {
     margin: 72px 0 0 !important;
   }
 }
