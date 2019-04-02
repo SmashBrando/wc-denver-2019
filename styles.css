@@ -50,7 +50,7 @@ h6 {
 }
 
 /* Hero Banner */
-.home .has-header-image .custom-header-media, .home .has-header-video .custom-header-media {
+.home.has-header-image .custom-header-media, .home.has-header-video .custom-header-media {
   height: 75vh !important;
 }
 .has-header-image .custom-header-media, .has-header-video .custom-header-media {
