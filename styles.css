@@ -50,7 +50,7 @@ h6 {
 }
 
 /* Hero Banner */
-home .has-header-image .custom-header-media, .has-header-video .custom-header-media {
+.home .has-header-image .custom-header-media, .home .has-header-video .custom-header-media {
   height: 75vh !important;
 }
 .has-header-image .custom-header-media, .has-header-video .custom-header-media {
@@ -87,10 +87,14 @@ home .has-header-image .custom-header-media, .has-header-video .custom-header-me
   right: 0 !important;
   left: 0;
   display: flex !important;
-  /* margin: 72px 0 0 !important; */
   padding: 0 !important;
   align-items: center !important;
   background: rgba(0,0,0,.25) !important;
+}
+@media screen and (max-width: 767px) {
+  .site-branding {
+    margin: 72px 0 0 !important;
+  }
 }
 .site-branding a:hover, .site-branding a:focus {
   opacity: 1;
