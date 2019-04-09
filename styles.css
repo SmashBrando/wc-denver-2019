@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 h1.site-title {
   font-size: 2rem !important;
 }
-.home .entry-title {
+.home .entry-header {
   display: none !important;
 }
 h1, h2.entry-title {
