@@ -135,6 +135,7 @@ body.has-header-image .site-description, body.has-header-video .site-description
 }
 .features a {
   display: block;
+  margin-bottom: 1em;
 }
 .features a, .features a:hover {
   box-shadow: none !important;
