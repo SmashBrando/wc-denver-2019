@@ -136,7 +136,7 @@ body.has-header-image .site-description, body.has-header-video .site-description
   transition: transform .2s;
 }
 .features a:hover {
-  transform: scale(1.5)
+  transform: scale(1.125)
 }
 @media screen and ( min-width: 48em ) {
   .features {
