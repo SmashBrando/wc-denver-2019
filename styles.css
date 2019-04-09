@@ -133,6 +133,9 @@ body.has-header-image .site-description, body.has-header-video .site-description
   max-width: 100%;
   height: auto;
 }
+.features a {
+  display: block;
+}
 .features a, .features a:hover {
   box-shadow: none !important;
   padding: 0px 10px;
