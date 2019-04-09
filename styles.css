@@ -133,10 +133,10 @@ body.has-header-image .site-description, body.has-header-video .site-description
 .features a, .features a:hover {
   box-shadow: none !important;
   padding: 0px 10px;
-  transition: transform .2s;
+  transition: transform .3s;
 }
 .features a:hover {
-  transform: scale(1.125)
+  transform: scale(1.25)
 }
 @media screen and ( min-width: 48em ) {
   .features {
