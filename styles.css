@@ -3,12 +3,19 @@ body, .site-content-contain, .site-header {
   background: #f6f6f6;
 }
 /* Typography */
-.entry-title, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   clear: both;
   margin: 0 0 .75em;
   padding: 1.5em 0 0;
   text-transform: uppercase;
   color: #234792;
+}
+h1.entry-title {
+  clear: both !important;
+  margin: 0 0 .75em !important;
+  padding: 1.5em 0 0 !important;
+  text-transform: uppercase !important;
+  color: #234792 !important;
 }
 h1.site-title {
   font-size: 2rem !important;
