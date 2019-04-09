@@ -126,6 +126,19 @@ body.has-header-image .site-description, body.has-header-video .site-description
     margin-bottom: 15px;
     border-radius: 10px;
 }
+/*  FEATURES */
+.features img {
+  box-shadow: none;
+}
+.features a {
+  box-shadow: none;
+  padding: 0px 10px
+}
+@media screen and ( min-width: 48em ) {
+  .features {
+    display: flex;
+  }
+}
 /* FOOTER */
 footer {
   background: #333333;
