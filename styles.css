@@ -128,10 +128,10 @@ body.has-header-image .site-description, body.has-header-video .site-description
 }
 /*  FEATURES */
 .features img {
-  box-shadow: none;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,.11), 0 5px 15px 0 rgba(0,0,0,.08) !important;
 }
-.features a {
-  box-shadow: none;
+.features a, .features a:hover {
+  box-shadow: none !important;
   padding: 0px 10px
 }
 @media screen and ( min-width: 48em ) {
