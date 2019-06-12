@@ -21,7 +21,10 @@ h1.entry-title {
 h1.site-title {
   font-size: 2rem !important;
 }
-.home  .panel-content:first-child .entry-header {
+.home  .panel-content .entry-header {
+	display: none;
+}
+.home  #panel1 .panel-content .entry-header {
 	display: none;
 }
 h1, h2.entry-title {
