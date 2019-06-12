@@ -27,6 +27,8 @@ h1.site-title {
   padding: 1.5em 0 0;
   text-transform: uppercase;
   color: #234792;
+  text-align: center;
+  font-weight: normal;
 }
 h1, h2.entry-title {
   font-size: 1.5rem !important;
