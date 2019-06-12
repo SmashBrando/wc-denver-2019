@@ -178,7 +178,7 @@ footer button:hover, footer button:focus, footer input[type="button"]:hover, foo
   background-color: #fafafa;
   color: #222;
 }
-h2.widget-title {
+footer h2.widget-title {
   color: #fff;
 }
 footer .widget ul li, footer .widget ol li {
