@@ -21,8 +21,8 @@ h1.entry-title {
 h1.site-title {
   font-size: 2rem !important;
 }
-.home .entry-header {
-  display: none !important;
+.home  .panel-content:first-child .entry-header {
+	display: none;
 }
 h1, h2.entry-title {
   font-size: 1.5rem !important;
@@ -162,6 +162,9 @@ body.has-header-image .site-description, body.has-header-video .site-description
 footer {
   background: #333333;
 }
+article footer {
+  background: none;
+}
 .site-footer .widget-column.footer-widget-1 {
   width: 100%;
   float: none;
@@ -221,4 +224,14 @@ footer-widget-2 section {
     width: 33.333%;
     padding: 0 30px;
   }
+}
+/* SPEAKERS */
+.wcorg-speaker-description img {
+	float: right;
+	margin-left: 20px;
+}
+
+.wcorg-speaker {
+/* border-bottom: 1px solid #ddd; */
+	margin-bottom: 25px;
 }
